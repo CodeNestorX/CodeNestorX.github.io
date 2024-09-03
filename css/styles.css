@@ -80,7 +80,14 @@
   --bs-border-radius: 0.375rem;
   --bs-border-radius-sm: 0.25rem;
   --bs-border-radius-lg: 0.5rem;
-  --bs-border-radius-xl: 1rem;
+  --bs-border-radius-xl: 1rem;a {
+    transition: color 0.2s ease-in-out;
+  }
+  
+  a:hover {
+    color: #067af7;
+    transition: color 0.2s ease-in-out;
+  }
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
   --bs-link-color: #052571;
